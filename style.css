@@ -8,6 +8,7 @@ font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     height: 200px;
     border-style: solid;
     border-color: black;
+    
   }
   
   .grid {
@@ -17,6 +18,7 @@ font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     align-content: center;
     width: 618px;
     height: 618px;
+    
   }
   
   .mole {
@@ -24,4 +26,8 @@ font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     background-size: cover;
   }
 
- 
+div:focus {
+    border-color:white;
+    border-radius: 30px;
+
+}
