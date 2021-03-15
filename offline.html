@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <title>Whack a Bob</title>
+      <meta charset="utf-8">
+      <link rel="shortcut icon" type="image/png" href="https://i.ibb.co/2nHtjxp/mole-jpg.png" />
+      <link rel="stylesheet" href="style.css">
+      <style>
+         h3 {
+         float:left;
+         }
+         img {
+         float: left;
+         }
+      </style>
+   </head>
+   <body>
+      <h1> Whack A Bob </h1>
+      <h2>Your score:</h2>
+      <h2 id="score">0</h2>
+      <h2>Seconds left:</h2>
+      <h2 id="time-left">60</h2>
+      <div class="grid">
+         <div tabindex="1" class="square" id="1"></div>
+         <div tabindex="2" class="square" id="2"></div>
+         <div tabindex="3" class="square" id="3"></div>
+         <div tabindex="4" class="square" id="4"></div>
+         <div tabindex="5" class="square" id="5"></div>
+         <div tabindex="6" class="square" id="6"></div>
+         <div tabindex="7" class="square" id="7"></div>
+         <div tabindex="8" class="square" id="8"></div>
+         <div tabindex class="square" id="9"></div>
+      </div>
+      <h3>Check out my GitHub or something ¯\_(ツ)_/¯</h3>
+      <a href="https://github.com/Jeve-Stobs">
+      <img alt="Git" src="git.png">  
+   </body>
+   <script src="app.js" charset="utf-8"></script>
+     <script>
+			if ("serviceWorker" in navigator) {
+				navigator.serviceWorker.register("sw.js");
+			}
+		</script>
+</html>
